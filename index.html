@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!--Quiz page container-->
+  <div class="quiz-container">
+
+    <div id="timer-container">
+      <span id="timer">30</span> seconds remaining
+    </div>
+    <!--Quiz Header container-->
+    <div id="quiz-header">
+      <h1>Quiz App</h1>
+      <div id="progress-bar"></div>
+    </div>
+
+    <!--Questions container-->
+    <div id="question-container">
+      <h2 id="question">Loading...</h2>
+      <ul id="options"></ul>
+    </div>
+
+    
+
+    <!--Button-->
+    <button id="next-btn" class="hidden">Next</button>
+    <!--Result Div-->
+    <div id="result" class="hidden"></div>
+  </div>
+
+</body>
+</html>
